@@ -1,5 +1,5 @@
 Name:           vifm
-Version:        0.14.4
+Version:        0.14.5
 Release:        1
 Summary:        Ncurses-based file manager with vim-like keybindings
 License:        GPL-2.0-or-later
@@ -10,13 +10,14 @@ BuildRequires:  lib64glib2.0-devel
 BuildRequires:  groff
 BuildRequires:  lib64ncurses-devel
 BuildRequires:  desktop-file-utils
+BuildRequires:	gnu-config
 
 %description
 Vifm is a ncurses based file manager with vim-like keybindings for managing
 your files. 
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure \
