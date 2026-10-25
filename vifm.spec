@@ -11,6 +11,8 @@ BuildRequires:  groff
 BuildRequires:  lib64ncurses-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:	gnu-config
+BuildRequires:	autoconf
+BuildRequires:	automake
 
 %description
 Vifm is a ncurses based file manager with vim-like keybindings for managing
