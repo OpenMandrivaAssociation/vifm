@@ -1,6 +1,6 @@
 Name:           vifm
 Version:        0.14.5
-Release:        1
+Release:        2
 Summary:        Ncurses-based file manager with vim-like keybindings
 License:        GPL-2.0-or-later
 Group:          Productivity/File utilities
@@ -73,5 +73,3 @@ rm -rf %{buildroot}%{_datadir}/vifm/vim-doc/doc/vifm-app.txt
 %dir %{_datadir}/icons/hicolor/scalable/apps
 %{_datadir}/icons/hicolor/128x128/apps/vifm.png
 %{_datadir}/icons/hicolor/scalable/apps/vifm.svg
-
-%changelog
